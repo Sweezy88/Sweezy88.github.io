@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#000000" />
+<title>SWEEZY</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="stage" aria-label="SWEEZY">
+    <div class="bg"></div>
+    <div class="glow"></div>
+
+    <img class="pipe pipe-top left"  src="assets/pipe_top.png" alt="" draggable="false" />
+    <img class="pipe pipe-bottom left" src="assets/pipe_bottom.png" alt="" draggable="false" />
+    <img class="pipe pipe-top right" src="assets/pipe_top.png" alt="" draggable="false" />
+    <img class="pipe pipe-bottom right" src="assets/pipe_bottom.png" alt="" draggable="false" />
+
+    <canvas id="smoke"></canvas>
+
+    <img class="collar left"  src="assets/collar.png" alt="" draggable="false" />
+    <img class="collar right" src="assets/collar.png" alt="" draggable="false" />
+
+    <div class="title-wrap">
+      <img class="title-glow" src="assets/title.png" alt="" draggable="false" />
+      <img class="title" src="assets/title.png" alt="SWEEZY" draggable="false" />
+      <div class="title-sheen"></div>
+    </div>
+
+    <div class="vignette"></div>
+  </main>
+
+  <div class="hint" id="hint">CLICK FOR SOUND</div>
+  <audio id="snd" src="assets/smoke.ogg" preload="auto"></audio>
+
+  <script src="main.js"></script>
+</body>
+</html>
