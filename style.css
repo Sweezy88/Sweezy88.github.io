@@ -69,13 +69,6 @@ body {
   -webkit-user-drag: none;
 }
 
-.pipe-top.left {
-  left: calc(60.5 * var(--u));
-  top: calc(175 * var(--u));
-  width: calc(191 * var(--u));
-  height: calc(1170 * var(--u));
-}
-
 .pipe-top.right {
   left: calc(1042 * var(--u));
   top: calc(175 * var(--u));
@@ -85,13 +78,6 @@ body {
 
 .pipe-bottom.left {
   left: calc(63 * var(--u));
-  top: calc(1450 * var(--u));
-  width: calc(187 * var(--u));
-  height: calc(1233 * var(--u));
-}
-
-.pipe-bottom.right {
-  left: calc(1043.5 * var(--u));
   top: calc(1450 * var(--u));
   width: calc(187 * var(--u));
   height: calc(1233 * var(--u));

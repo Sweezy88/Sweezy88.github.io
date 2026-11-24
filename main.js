@@ -7,7 +7,7 @@
   const FADE_MS = 2600;
 
   const RIGHT = { x: 900, y: 1450, w: 364, h: 1330 };
-  const LEFT = { x: 0, y: 0, w: 330, h: 1320 };
+  const LEFT = { x: -24, y: 0, w: 364, h: 1330 };
 
   const stage = document.getElementById('stage');
   const canvas = document.getElementById('smoke');
